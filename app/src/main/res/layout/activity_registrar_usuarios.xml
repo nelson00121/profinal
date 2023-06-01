@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoandroid"
+    tools:context=".RegistrarUsuarios">
+
+
+    <TextView
+        android:id="@+id/txtRegistroUsuario"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="448dp"
+        android:text="Datos del Usuario"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+       />
+
+    <EditText
+        android:id="@+id/editUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="384dp"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        android:background="@drawable/bordertextview"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imgusuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="285dp"
+        android:layout_marginBottom="393dp"
+        app:srcCompat="@drawable/usuarioregistro" />
+
+    <EditText
+        android:id="@+id/editContraseñaUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="320dp"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPersonName"
+        android:background="@drawable/bordertextview"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+    <ImageView
+        android:id="@+id/imgcontraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="285dp"
+        android:layout_marginBottom="327dp"
+        app:srcCompat="@drawable/contraregistro" />
+
+    <EditText
+        android:id="@+id/editNombreDeUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="266dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:background="@drawable/bordertextview"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imgnombreusuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="285dp"
+        android:layout_marginBottom="273dp"
+        app:srcCompat="@drawable/nombreregistro" />
+
+    <EditText
+        android:id="@+id/editApellidoUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="212dp"
+        android:ems="10"
+        android:hint="Apellido"
+        android:inputType="textPersonName"
+        android:background="@drawable/bordertextview"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imgapellidousuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="286dp"
+        android:layout_marginBottom="221dp"
+        app:srcCompat="@drawable/apellidoregistro"/>
+
+    <EditText
+        android:id="@+id/editEdadUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="159dp"
+        android:ems="10"
+        android:hint="Edad"
+        android:inputType="textPersonName"
+        android:background="@drawable/bordertextview"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imgedadusuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="288dp"
+        android:layout_marginBottom="164dp"
+        app:srcCompat="@drawable/edadregistro"/>
+
+    <Button
+        android:id="@+id/btnRegistrarDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="95dp"
+        android:text="Registrar"
+        app:cornerRadius="100dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fp"
+    tools:context=".ActualizarInforUsuario">
+
+    <TextView
+        android:id="@+id/txtActualizarUsuario"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="448dp"
+        android:text="Nuevos Datos Para El Usuario"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/editNuevoUsario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="338dp"
+        android:background="@drawable/borderactualizar"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Nuevo Usuario"
+        android:inputType="textPersonName"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imgusuarionuevo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="290dp"
+        android:layout_marginBottom="341dp"
+        app:srcCompat="@drawable/usuarioregistro" />
+
+    <EditText
+        android:id="@+id/editContraseñaUsuarioNueva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="271dp"
+        android:background="@drawable/borderactualizar"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Nueva Contraseña"
+        android:inputType="textPersonName"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imgcontraseñanueva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="299dp"
+        android:layout_marginBottom="266dp"
+        app:srcCompat="@drawable/contraregistro" />
+
+    <Button
+        android:id="@+id/btnRegistrarDatosNuevos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="162dp"
+        android:text="Registrar"
+        app:cornerRadius="100dp" />
+</RelativeLayout>

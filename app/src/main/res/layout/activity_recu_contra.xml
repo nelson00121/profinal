@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoandroid"
+    tools:context=".RecuContra">
+
+
+    <TextView
+        android:id="@+id/txtttulorestaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="443dp"
+        android:text="Reestablece tu contraseña"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="294dp"
+        android:layout_marginBottom="316dp"
+        app:srcCompat="@drawable/candadodesblo" />
+
+    <EditText
+        android:id="@+id/editUsuarioRestacontraseña"
+        android:layout_width="259dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="312dp"
+        android:ems="10"
+        android:hint="Nombre de Usuario"
+        android:inputType="textPersonName"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btncomprubausuairo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="188dp"
+        android:gravity="center"
+        android:text="Validar" />
+</RelativeLayout>

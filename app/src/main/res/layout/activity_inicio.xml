@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondocrema"
+    tools:context=".Inicio">
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablaLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/Bienvenido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Incio"
+            android:icon="@drawable/hola"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/Producto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:text="Producto"
+            android:icon="@drawable/productos"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/Otros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:text="Otros"
+            android:icon="@drawable/ver"
+            />
+    </com.google.android.material.tabs.TabLayout>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vistapegar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
